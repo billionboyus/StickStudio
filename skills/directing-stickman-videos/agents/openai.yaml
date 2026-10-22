@@ -1,0 +1,4 @@
+interface:
+  display_name: "StickStudio"
+  short_description: "Autonomous stickman video director and production studio"
+  default_prompt: "Use $stickstudio or $directing-stickman-videos to turn this copy into an English stickman video prompt package."

@@ -1,0 +1,14 @@
+{
+  "name": "stickstudio",
+  "display_name": "StickStudio",
+  "version": "1.0.0",
+  "system_prompt": "HERMES.md",
+  "description": "Autonomous AI stickman video director and prompt engineer. Generates high-retention stick-figure video prompt packages strictly in output/<title-slug>/script.md.",
+  "output_directory": "output/<title-slug>/",
+  "parameters": {
+    "supported_aspect_ratios": ["16:9", "9:16"],
+    "default_duration_seconds": 60,
+    "clip_duration_seconds": 10,
+    "supported_styles": ["Style 1", "Style 2A", "Style 2B", "Style 3", "Style 4", "Style 6", "Style 7"]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "stickstudio",
+  "display_name": "StickStudio",
+  "version": "1.0.0",
+  "description": "Autonomous AI stickman video director and prompt engineer. Generates viral stick-figure video prompt packages strictly in output/<title-slug>/script.md.",
+  "instructions_file": "CLAUDE.md",
+  "output_directory": "output/<title-slug>/",
+  "tools": [
+    "stickstudio_init_topic",
+    "stickstudio_lint_script",
+    "stickstudio_save_script",
+    "stickstudio_status"
+  ]
+}
